@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Co-working | 雲の中が落ち着く]]></title>
+  <link href="http://mimu365.github.com/blog/categories/co-working/atom.xml" rel="self"/>
+  <link href="http://mimu365.github.com/"/>
+  <updated>2012-06-05T18:44:49+09:00</updated>
+  <id>http://mimu365.github.com/</id>
+  <author>
+    <name><![CDATA[mimu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GitHubにspacer.gifが！]]></title>
+    <link href="http://mimu365.github.com/blog/2012/05/15/spacer-dot-gif-on-github/"/>
+    <updated>2012-05-15T15:56:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/05/15/spacer-dot-gif-on-github</id>
+    <content type="html"><![CDATA[<h4>spacer.gifの夢再び</h4>
+
+<p>今日の昼下がり、<a href="http://www.osakan-space.com/">Osakan Space</a>でコワーキング中のこと、Facebookに<a href="http://www.msng.info/archives/2012/05/spacer-gif-on-github.php">「GitHubにspacer.gifをコミットした」</a>という投稿が流れてきました。<br/>
+なんと、同じくOsakan Spaceでコワーキング中のmsng氏が、<a href="https://github.com/msng/spacer.gif">spacer.gifのオープンソースプロジェクトをGitHub上に立ち上げた</a>というのです。<br/>
+これはすごい！テーブルレイアウト時代の遺産spacer.gifが、今をときめくGitHubでオープンソース化とは！</p>
+
+<h4>SSL通信のspacer.gif</h4>
+
+<p>そしてこれもすごいのが、このプロジェクト上のspacer.gifがSSLでアクセスできること！ウェブでのSSL通信が当たり前の昨今、画像1つとってみても、SSL化されることが求められています。<br/>
+このGitHub上のファイルはSSLでアクセスできるため、このspacer.gifを使わない手はありません。そんなときは、</p>
+
+<pre><code>&lt;img src="http://bit.ly/spacergif"&gt;
+</code></pre>
+
+<p>と書けば、URLも短縮されてすっきり。忘れることもないでしょう。</p>
+
+<h4>さらにウェブサービスまで</h4>
+
+<p>さらに、msng氏は、このspacer.gifに関するなんかすごいウェブサービスを作られたようです…<br/>
+が、その詳細は、6月2日（土）に開催されるmsng氏の主催イベント<a href="http://www.msng.info/archives/2012/05/orekike-3.php">「俺の話を聞け！3」</a>で明らかになるとのこと。<br/>
+これは参加しなくては！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Shoot from Osaka]]></title>
+    <link href="http://mimu365.github.com/blog/2012/04/13/shootfromosaka/"/>
+    <updated>2012-04-13T20:10:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/04/13/shootfromosaka</id>
+    <content type="html"><![CDATA[<p>大阪からITサービスを発信するイベント<a href="http://www.osakan-space.com/events/120413/">Shoot from Osaka</a>に参加しました。
+会場は、本町にあるコワーキングスペースの<a href="http://www.osakan-space.com/">Osakan Space</a>。東京からメディアの方々がお越しになり、大阪のIT企業や個人の方のピッチと呼ばれる短いプレゼンと、その後の交流会で、また出会いが増えるのでした。</p>
+]]></content>
+  </entry>
+  
+</feed>
