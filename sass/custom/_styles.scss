@@ -1,2 +1,26 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+body {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h1.entry-title {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 13px;
+    padding: 2px 2px 2px 8px;
+    border-left: 7px solid #999;
+    border-bottom: 1px solid #999;
+}
+
