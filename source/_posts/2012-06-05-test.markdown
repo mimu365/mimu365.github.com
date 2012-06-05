@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "test"
+title: "思わぬエラー"
 date: 2012-06-05 17:00
 comments: true
 categories:
@@ -9,7 +9,7 @@ categories:
 
     rake generate
 
-で
+をすると
 
     ... couldn't parse YAML at line 7 column 0 (Psych::SyntaxError)
 
@@ -19,5 +19,5 @@ categories:
 
     source/_posts
 
-内の記事タイトルに「"」という記号が紛れ込んでいたことが、原因でした…
+内の記事タイトルの末尾が「"」で閉じられていなかったのが原因でした…
 
