@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://mimu365.github.com
-title: "We Love Clody Days"
-subtitle: "sub blog"
+title: 雲の中が落ち着く
+subtitle: 水の中が落ち着く Octpress version
 author: mimu
 simple_search: http://google.com/search
 description:
@@ -58,10 +58,10 @@ default_asides: [custom/asides/about.html, asides/recent_posts.html, asides/gith
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
-github_show_profile_link: true
-github_skip_forks: true
+#github_user:
+#github_repo_count: 0
+#github_show_profile_link: true
+#github_skip_forks: true
 
 # Twitter
 twitter_user: nupe
@@ -73,26 +73,26 @@ twitter_tweet_button: true
 twitter_tweet_button_lang: ja
 
 # Google +1
-google_plus_one: 
-google_plus_one_size: medium
-google_plus_one_lang: ja
+#google_plus_one: 
+#google_plus_one_size: medium
+#google_plus_one_lang: ja
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
-googleplus_hidden: false
+#googleplus_user:
+#googleplus_hidden: false
 
 # Pinboard
-pinboard_user:
-pinboard_count: 3
+#pinboard_user:
+#pinboard_count: 3
 
 # Delicious
-delicious_user:
-delicious_count: 3
+#delicious_user:
+#delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+#disqus_short_name:
+#disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id: UA-908489-1

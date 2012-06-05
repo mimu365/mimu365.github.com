@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "定員になりました！「第1回 WordBar堺！」
+title: 定員になりました！「第1回 WordBar堺！」
 date: 2012-06-02 17:22
 comments: true
 categories: WordBar
