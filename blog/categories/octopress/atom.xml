@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | 雲の中が落ち着く]]></title>
+  <link href="http://mimu365.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://mimu365.github.com/"/>
+  <updated>2012-06-06T00:06:59+09:00</updated>
+  <id>http://mimu365.github.com/</id>
+  <author>
+    <name><![CDATA[mimu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[英語ブログを移そうか]]></title>
+    <link href="http://mimu365.github.com/blog/2012/04/13/english/"/>
+    <updated>2012-04-13T00:01:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/04/13/english</id>
+    <content type="html"><![CDATA[<p><a href="http://mimu.hatenablog.com/" title="Rock'n'Roll CoW">はてなブログ</a>で書き始めていた英語ブログも、Octopressに移そうと思う。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[写真貼りつけ]]></title>
+    <link href="http://mimu365.github.com/blog/2012/04/12/photo/"/>
+    <updated>2012-04-12T20:42:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/04/12/photo</id>
+    <content type="html"><![CDATA[<h4>サーバにアップロードはできなくても</h4>
+
+<p><a href="http://www.flickr.com/photos/acguyinfo/7055550429/" title="とりあえず公園走り回ってる。出会えたらラッキー。 by nupe = mimu, on Flickr"><img src="http://farm8.staticflickr.com/7044/7055550429_a44f9ee10c.jpg" width="500" height="500" alt="とりあえず公園走り回ってる。出会えたらラッキー。"></a></p>
+
+<p>写真はFlickrのリンクを貼れば良いし、書くだけならこれで十分。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressはじめました]]></title>
+    <link href="http://mimu365.github.com/blog/2012/04/12/test/"/>
+    <updated>2012-04-12T06:51:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/04/12/test</id>
+    <content type="html"><![CDATA[<h4>GitHub上にブログ</h4>
+
+<p>Markdownで書けるブログは、Octopressがいいじゃないか。</p>
+]]></content>
+  </entry>
+  
+</feed>

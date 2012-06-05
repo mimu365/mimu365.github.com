@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: WordBar | 雲の中が落ち着く]]></title>
+  <link href="http://mimu365.github.com/blog/categories/wordbar/atom.xml" rel="self"/>
+  <link href="http://mimu365.github.com/"/>
+  <updated>2012-06-06T00:06:59+09:00</updated>
+  <id>http://mimu365.github.com/</id>
+  <author>
+    <name><![CDATA[mimu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[定員になりました！「第1回 WordBar堺！」]]></title>
+    <link href="http://mimu365.github.com/blog/2012/06/02/wordbar/"/>
+    <updated>2012-06-02T17:22:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/06/02/wordbar</id>
+    <content type="html"><![CDATA[<p><a href="http://blog.acguy.info/blog/2012/05/16/wordbar/">先日告知した</a>「<a href="http://www.zusaar.com/event/293001">第1回 WordBar堺！</a>」ですが、なんと定員に達しました。</p>
+
+<p>お申し込みありがとうございました。楽しい時間をご一緒しましょう。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[開催決定！「第1回 WordBar堺！」]]></title>
+    <link href="http://mimu365.github.com/blog/2012/05/16/wordbar/"/>
+    <updated>2012-05-16T17:11:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/05/16/wordbar</id>
+    <content type="html"><![CDATA[<h4>3年前に出会った仲間で</h4>
+
+<p>3年前、WordPressの開発者Mattの来日に合わせて開催されたWordCamp大阪勉強会。そこで出会った堺の仲間、NPOの仲間と一緒に、WordPressの勉強会を企画しました。</p>
+
+<h4>NPOですから</h4>
+
+<p>もちろん、WordPressユーザの交流、情報交換をすることが目的ですが、堺だけの特色として、社会の課題に関連付けた話題も、すこし提供したいと思っています。</p>
+
+<h4>カフェですから</h4>
+
+<p>会場は、セミナールームではなくカフェ。海辺の倉庫を改装したおしゃれなカフェ。ですから、グラス片手にソファでのんびりしましょう。カフェの閉店までゆっくりしていただけます。</p>
+
+<h4>興味をお持ちでしたら</h4>
+
+<p><a href="http://www.zusaar.com/event/293001">イベント詳細@Zusaar</a>からお申し込みください。楽しいひとときをご一緒しましょう。</p>
+]]></content>
+  </entry>
+  
+</feed>
