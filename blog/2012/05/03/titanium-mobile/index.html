@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Titanium Mobileことはじめ - 雲の中が落ち着く</title>
+  <meta name="author" content="mimu">
+
+  
+  <meta name="description" content="この記事の方法では、エミュレータが動かなかったり、実機転送ができなかったりがありまして…いろいろ試行錯誤をしたので、近いうちに記事を修正します… Titanium MobileのWindows 7へのインストール 「Titanium」は「タイタニウム」と読むそうな。
+以下、Android &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mimu365.github.com/blog/2012/05/03/titanium-mobile">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="雲の中が落ち着く" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<meta property="fb:app_id" content="329164413805615" />
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-908489-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+<div id="fb-root"></div>
+  <header role="banner"><hgroup>
+  <h1><a href="/">雲の中が落ち着く</a></h1>
+  
+    <h2>水の中が落ち着く Octopress ver.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:mimu365.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h3 class="entry-title">Titanium Mobileことはじめ</h3>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-03T09:51:00+09:00" pubdate data-updated="true">May 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><em>この記事の方法では、エミュレータが動かなかったり、実機転送ができなかったりがありまして…いろいろ試行錯誤をしたので、近いうちに記事を修正します…</em></p>
+
+<h4>Titanium MobileのWindows 7へのインストール</h4>
+
+<p>「Titanium」は「タイタニウム」と読むそうな。<br/>
+以下、Android App開発のためのWindows 7へのインストール手順です。（それぞれ、2012/5/3現在のバージョンです。）</p>
+
+<h4>(1) JAVA JDKのインストール</h4>
+
+<p><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">JAVA SE Downloads</a>から、Java SE 7u4のJDKをダウンロード。<br/>
+ダウンロード後、解凍してインストール（Program Files以下でOK）</p>
+
+<h4>(2) Android SDKのインストール</h4>
+
+<p><a href="http://developer.android.com/sdk/index.html">Android SDK</a>から、「installer_r18-windows.exe」をダウンロード。<br/>
+ダウンロード後、指示に従ってインストール。その際、JAVA JDKを</p>
+
+<pre><code>C:\Program Files\Java\jdk1.7.0_04
+</code></pre>
+
+<p>に指定する。インストール先はProgram Files以下でOK。</p>
+
+<p>インストール後、引き続きSDK ManagerとAVD Managerを立ち上げて初期設定を行う。</p>
+
+<ul>
+<li>SDK Managerでは、Tools以下2つとExtra＞Google USB Driverをインストール。時間に余裕があれば、所持している実機に合わせて「Android 2.2」などのDeviceをインストールしておく。（かなり時間がかかる）</li>
+<li>AVD Managerでは、SDKでDeviceをインストールした場合、Virtual Deviceの設定を行う。</li>
+</ul>
+
+
+<p>（これらは後で設定できるので、省略可。）</p>
+
+<h4>(3) Pathの設定</h4>
+
+<p>(1)(2)でインストールしたディレクトリまでのパスを、環境変数に追加</p>
+
+<pre><code>コントロールパネル→システム環境設定→環境変数→Path
+</code></pre>
+
+<p>の末尾に</p>
+
+<pre><code>;C:\Program Files\Android\android-sdk\platform-tools;C:\Program Files\Android\android-sdk\tools;C:\Program Files\Java\jdk1.7.0_04\bin
+</code></pre>
+
+<p>を追加する。</p>
+
+<h4>(4) Titanium Studioのインストール</h4>
+
+<p><a href="http://www.appcelerator.com/platform/titanium-studio">Titanium Studio</a>からダウンロード。（アカウントを作らないとダウンロードできない？）</p>
+
+<p>ダウンロード後、指示に従ってインストール。ディレクトリを</p>
+
+<pre><code>C:\TitaniumStudio
+</code></pre>
+
+<p>に変更してインストール継続。</p>
+
+<h4>(5) Titanium Studioの日本語化</h4>
+
+<p><a href="http://mergedoc.sourceforge.jp/">Pleadesファイルのダウンロード</a>から、本体の安定版をダウンロード。<br/>
+解凍後、FeaturesとPluginsを</p>
+
+<pre><code>C:\TitaniumStudio
+</code></pre>
+
+<p>内の同名のフォルダに上書き。</p>
+
+<pre><code>C:\TitaniumStudio\TitaniumStudio.ini
+</code></pre>
+
+<p>の末尾に</p>
+
+<pre><code>-javaagent:plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar
+</code></pre>
+
+<p>を追記。</p>
+
+<h4>(6) JDKのバージョン</h4>
+
+<p>このままだと、JDKのバージョンの指定が誤っていて、</p>
+
+<pre><code>[ERROR] JDK version 1.7.0 detected, but 1.6 is required
+</code></pre>
+
+<p>というエラーが出てAndroidのエミュレータが起動しないので、</p>
+
+<pre><code>C:\Users\(ユーザー名)\AppData\Roaming\Titanium\mobilesdk\win32\2.0.1.GA2\android\prereq.py
+</code></pre>
+
+<p>の21、22行目</p>
+
+<pre><code>if not version.startswith("1.6"):
+    status = "JDK version %s detected, but 1.6 is required" % version
+</code></pre>
+
+<p>を</p>
+
+<pre><code>if not version.startswith("1.7"):
+    status = "JDK version %s detected, but 1.7 is required" % version
+</code></pre>
+
+<p>に変更。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">mimu</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-03T09:51:00+09:00" pubdate data-updated="true">May 3<span>rd</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/android/'>Android</a>, <a class='category' href='/blog/categories/app/'>App</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mimu365.github.com/blog/2012/05/03/titanium-mobile/" data-via="nupe" data-counturl="http://mimu365.github.com/blog/2012/05/03/titanium-mobile/" >Tweet</a>
+  
+  
+  <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button"
+      data-hatena-bookmark-layout="standard"
+      data-hatena-bookmark-url="http://mimu365.github.com/blog/2012/05/03/titanium-mobile/">
+    <img src="http://b.st-hatena.com/images/entry-button/button-only.gif"
+        alt="このエントリーをはてなブックマークに追加" width="20" height="20"
+        style="border: none">
+  </a>
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/04/22/townbal/" title="Previous Post: コミューンお目見え＠甲子園バル">&laquo; コミューンお目見え＠甲子園バル</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/05/15/spacer-dot-gif-on-github/" title="Next Post: GitHubにspacer.gifが！">GitHubにspacer.gifが！ &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h3>Comments</h3>
+    <div id="facebook_comments" aria-live="polite">
+      <noscript>Please enable JavaScript to view the comments powered by facebook</a></noscript>
+<div
+  class="fb-comments"
+  data-href="http://mimu365.github.com/blog/2012/05/03/titanium-mobile/"
+  data-num-posts="2"
+  data-width="470"
+  data-colorscheme="light" ></div>
+
+    </div>
+  </section>
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+  <p>mimu:<br />プログラマ, 地域福祉, ボランティアコーディネーター, ファンドレイザー</p>
+  <p>本サイト: <a href="http://acguy.info/">水の中が落ち着く</a></p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/05/16/wordbar/">開催決定！「第1回 WordBar堺！」</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/05/15/spacer-dot-gif-on-github/">GitHubにspacer.gifが！</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/05/03/titanium-mobile/">Titanium Mobileことはじめ</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/22/townbal/">コミューンお目見え＠甲子園バル</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/20/commune/">「コミューン」地域をSNS化するiPhone用Twitterクライアント</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("nupe", 5, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/nupe" class="twitter-follow-button" data-show-count="false">Follow @nupe</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - mimu -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+<script>
+(function(w,d){
+    var c,e=d.createDocumentFragment(),f=d.getElementsByTagName("script")[0],
+    a=function(a,b){if(!d.getElementById(b)){c=d.createElement("script");
+    c.src=a;c.id=b||null;c.async=true;e.appendChild(c);}};
+
+
+    a("//platform.twitter.com/widgets.js");
+
+
+    a("//connect.facebook.net/ja_JP/all.js#appId=329164413805615&xfbml=1","facebook-jssdk");
+
+    a("//b.st-hatena.com/js/bookmark_button_wo_al.js");
+    f.parentNode.insertBefore(e,f);
+})(this,document);
+</script>
+
+
+</body>
+</html>
