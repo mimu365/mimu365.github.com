@@ -2,7 +2,7 @@
 // Add styles here to make changes without digging in too much
 
 body {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 h1 {
@@ -11,6 +11,9 @@ h1 {
 
 h1.entry-title {
     font-size: 16px;
+    padding: 2px 2px 2px 8px;
+    border-left: 7px solid #999;
+    border-bottom: 1px solid #999;
 }
 
 h2 {
@@ -18,9 +21,8 @@ h2 {
 }
 
 h3 {
-    font-size: 13px;
-    padding: 2px 2px 2px 8px;
-    border-left: 7px solid #999;
+    font-size: 14px;
+    padding: 2px 5px;
     border-bottom: 1px solid #999;
 }
 
