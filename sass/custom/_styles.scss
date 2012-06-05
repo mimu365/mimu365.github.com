@@ -10,26 +10,33 @@ input, select {
 }
 
 body {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 h1 {
     font-size: 20px;
 }
 
-#content .blog-index article h1, #content .blog-index article h1 a  {
-    font-size: 16px;
+#content .blog-index article h1 a  {
+    font-size: 18px;
+    padding: 2px 2px 2px 8px;
+    border-left: 7px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+article header h1 {
+    font-size: 18px;
     padding: 2px 2px 2px 8px;
     border-left: 7px solid #999;
     border-bottom: 1px solid #999;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 16px;
     padding: 2px 5px;
     border-bottom: 1px solid #999;
 }
