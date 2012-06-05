@@ -1,0 +1,8 @@
+---
+layout: post
+title: "英語ブログを移そうか"
+date: 2012-04-13 00:01
+comments: true
+categories: Octopress
+---
+[はてなブログ](http://mimu.hatenablog.com/ "Rock'n'Roll CoW")で書き始めていた英語ブログも、Octopressに移そうと思う。

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[雲の中が落ち着く]]></title>
-  <link href="http://mimu365.github.com/atom.xml" rel="self"/>
-  <link href="http://mimu365.github.com/"/>
-  <updated>2012-06-05T18:44:49+09:00</updated>
-  <id>http://mimu365.github.com/</id>
+  <link href="http://blog.acguy.info/atom.xml" rel="self"/>
+  <link href="http://blog.acguy.info/"/>
+  <updated>2012-06-02T17:28:36+09:00</updated>
+  <id>http://blog.acguy.info/</id>
   <author>
     <name><![CDATA[mimu]]></name>
     
@@ -14,10 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[定員になりました：第1回 WordBar堺!]]></title>
+    <link href="http://blog.acguy.info/blog/2012/06/02/wordbar/"/>
+    <updated>2012-06-02T17:22:00+09:00</updated>
+    <id>http://blog.acguy.info/blog/2012/06/02/wordbar</id>
+    <content type="html"><![CDATA[<p><a href="http://blog.acguy.info/blog/2012/05/16/wordbar/">先日告知した</a><a href="http://www.zusaar.com/event/293001">第1回 WordBar堺!</a>ですが、なんと定員に達しました。
+お申し込みありがとうございました。楽しい時間をご一緒しましょう。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[開催決定！「第1回 WordBar堺！」]]></title>
-    <link href="http://mimu365.github.com/blog/2012/05/16/wordbar/"/>
+    <link href="http://blog.acguy.info/blog/2012/05/16/wordbar/"/>
     <updated>2012-05-16T17:11:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/05/16/wordbar</id>
+    <id>http://blog.acguy.info/blog/2012/05/16/wordbar</id>
     <content type="html"><![CDATA[<h4>3年前に出会った仲間で</h4>
 
 <p>3年前、WordPressの開発者Mattの来日に合わせて開催されたWordCamp大阪勉強会。そこで出会った堺の仲間、NPOの仲間と一緒に、WordPressの勉強会を企画しました。</p>
@@ -38,9 +48,9 @@
   
   <entry>
     <title type="html"><![CDATA[GitHubにspacer.gifが！]]></title>
-    <link href="http://mimu365.github.com/blog/2012/05/15/spacer-dot-gif-on-github/"/>
+    <link href="http://blog.acguy.info/blog/2012/05/15/spacer-dot-gif-on-github/"/>
     <updated>2012-05-15T15:56:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/05/15/spacer-dot-gif-on-github</id>
+    <id>http://blog.acguy.info/blog/2012/05/15/spacer-dot-gif-on-github</id>
     <content type="html"><![CDATA[<h4>spacer.gifの夢再び</h4>
 
 <p>今日の昼下がり、<a href="http://www.osakan-space.com/">Osakan Space</a>でコワーキング中のこと、Facebookに<a href="http://www.msng.info/archives/2012/05/spacer-gif-on-github.php">「GitHubにspacer.gifをコミットした」</a>という投稿が流れてきました。<br/>
@@ -67,9 +77,9 @@
   
   <entry>
     <title type="html"><![CDATA[Titanium Mobileことはじめ]]></title>
-    <link href="http://mimu365.github.com/blog/2012/05/03/titanium-mobile/"/>
+    <link href="http://blog.acguy.info/blog/2012/05/03/titanium-mobile/"/>
     <updated>2012-05-03T09:51:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/05/03/titanium-mobile</id>
+    <id>http://blog.acguy.info/blog/2012/05/03/titanium-mobile</id>
     <content type="html"><![CDATA[<p><em>この記事の方法では、エミュレータが動かなかったり、実機転送ができなかったりがありまして…いろいろ試行錯誤をしたので、近いうちに記事を修正します…</em></p>
 
 <h4>Titanium MobileのWindows 7へのインストール</h4>
@@ -177,9 +187,9 @@
   
   <entry>
     <title type="html"><![CDATA[コミューンお目見え＠甲子園バル]]></title>
-    <link href="http://mimu365.github.com/blog/2012/04/22/townbal/"/>
+    <link href="http://blog.acguy.info/blog/2012/04/22/townbal/"/>
     <updated>2012-04-22T21:44:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/04/22/townbal</id>
+    <id>http://blog.acguy.info/blog/2012/04/22/townbal</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/acguyinfo/6955914752/" title="Koshien Bar by nupe = mimu, on Flickr"><img src="http://farm9.staticflickr.com/8028/6955914752_6db3c06696_n.jpg" width="240" height="320" alt="Koshien Bar"></a></p>
 
 <p>来たる4月21日（土）、西宮バルの最後を飾る<a href="http://n-bar.info/koshien_bar/index.html">甲子園バル</a>が開催され、街をSNS化するアプリ「<a href="http://www.commune-srv.com/">コミューン</a>」がお目見えしました。
@@ -196,9 +206,9 @@
   
   <entry>
     <title type="html"><![CDATA[「コミューン」地域をSNS化するiPhone用Twitterクライアント]]></title>
-    <link href="http://mimu365.github.com/blog/2012/04/20/commune/"/>
+    <link href="http://blog.acguy.info/blog/2012/04/20/commune/"/>
     <updated>2012-04-20T06:47:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/04/20/commune</id>
+    <id>http://blog.acguy.info/blog/2012/04/20/commune</id>
     <content type="html"><![CDATA[<p>地域をSNS化するiPhone用Twitterクライアントがリリースされました。
 <a href="http://www.commune-srv.com/">コミューン</a></p>
 
@@ -224,9 +234,9 @@
   
   <entry>
     <title type="html"><![CDATA[Shoot from Osaka]]></title>
-    <link href="http://mimu365.github.com/blog/2012/04/13/shootfromosaka/"/>
+    <link href="http://blog.acguy.info/blog/2012/04/13/shootfromosaka/"/>
     <updated>2012-04-13T20:10:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/04/13/shootfromosaka</id>
+    <id>http://blog.acguy.info/blog/2012/04/13/shootfromosaka</id>
     <content type="html"><![CDATA[<p>大阪からITサービスを発信するイベント<a href="http://www.osakan-space.com/events/120413/">Shoot from Osaka</a>に参加しました。
 会場は、本町にあるコワーキングスペースの<a href="http://www.osakan-space.com/">Osakan Space</a>。東京からメディアの方々がお越しになり、大阪のIT企業や個人の方のピッチと呼ばれる短いプレゼンと、その後の交流会で、また出会いが増えるのでした。</p>
 ]]></content>
@@ -234,18 +244,18 @@
   
   <entry>
     <title type="html"><![CDATA[英語ブログを移そうか]]></title>
-    <link href="http://mimu365.github.com/blog/2012/04/13/english/"/>
+    <link href="http://blog.acguy.info/blog/2012/04/13/english/"/>
     <updated>2012-04-13T00:01:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/04/13/english</id>
+    <id>http://blog.acguy.info/blog/2012/04/13/english</id>
     <content type="html"><![CDATA[<p><a href="http://mimu.hatenablog.com/" title="Rock'n'Roll CoW">はてなブログ</a>で書き始めていた英語ブログも、Octopressに移そうと思う。</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[写真貼りつけ]]></title>
-    <link href="http://mimu365.github.com/blog/2012/04/12/photo/"/>
+    <link href="http://blog.acguy.info/blog/2012/04/12/photo/"/>
     <updated>2012-04-12T20:42:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/04/12/photo</id>
+    <id>http://blog.acguy.info/blog/2012/04/12/photo</id>
     <content type="html"><![CDATA[<h4>サーバにアップロードはできなくても</h4>
 
 <p><a href="http://www.flickr.com/photos/acguyinfo/7055550429/" title="とりあえず公園走り回ってる。出会えたらラッキー。 by nupe = mimu, on Flickr"><img src="http://farm8.staticflickr.com/7044/7055550429_a44f9ee10c.jpg" width="500" height="500" alt="とりあえず公園走り回ってる。出会えたらラッキー。"></a></p>
@@ -256,9 +266,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopressはじめました]]></title>
-    <link href="http://mimu365.github.com/blog/2012/04/12/test/"/>
+    <link href="http://blog.acguy.info/blog/2012/04/12/test/"/>
     <updated>2012-04-12T06:51:00+09:00</updated>
-    <id>http://mimu365.github.com/blog/2012/04/12/test</id>
+    <id>http://blog.acguy.info/blog/2012/04/12/test</id>
     <content type="html"><![CDATA[<h4>GitHub上にブログ</h4>
 
 <p>Markdownで書けるブログは、Octopressがいいじゃないか。</p>

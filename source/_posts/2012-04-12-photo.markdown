@@ -1,0 +1,11 @@
+---
+layout: post
+title: "写真貼りつけ"
+date: 2012-04-12 20:42
+comments: true
+categories: Octopress
+---
+#### サーバにアップロードはできなくても
+<a href="http://www.flickr.com/photos/acguyinfo/7055550429/" title="とりあえず公園走り回ってる。出会えたらラッキー。 by nupe = mimu, on Flickr"><img src="http://farm8.staticflickr.com/7044/7055550429_a44f9ee10c.jpg" width="500" height="500" alt="とりあえず公園走り回ってる。出会えたらラッキー。"></a>
+
+写真はFlickrのリンクを貼れば良いし、書くだけならこれで十分。

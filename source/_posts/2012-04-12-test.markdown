@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Octopressはじめました"
+date: 2012-04-12 06:51
+comments: true
+categories: Octopress
+---
+#### GitHub上にブログ
+Markdownで書けるブログは、Octopressがいいじゃないか。
