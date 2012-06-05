@@ -2,9 +2,28 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works. your sites's.
 // If you love to use Web Fonts, you also need to add some lines to source/_includes/custom/head.html
 
-//$sans: "Optima", sans-serif;
-//$serif: "Baskerville", serif;
-//$mono: "Courier", monospace;
-//$heading-font-family: "Verdana", sans-serif;
-//$header-title-font-family: "Futura", sans-serif;
-//$header-subtitle-font-family: "Futura", sans-serif;
+$sans: "Optima", sans-serif;
+$serif: "Baskerville", serif;
+$mono: "Courier", monospace;
+$heading-font-family: "Verdana", sans-serif;
+$header-title-font-family: "Futura", sans-serif;
+$header-subtitle-font-family: "Futura", sans-serif;
+
+body {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 13px;
+    border-left: 7px solid #666;
+    border-bottom: 1px solid #666;
+}
+
