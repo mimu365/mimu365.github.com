@@ -1,6 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+body, textarea {
+    font-family: "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+input, select {
+    font-family: Arial, "ＭＳ Ｐゴシック", sans-serif;
+}
+
 body {
     font-size: 13px;
 }
@@ -9,7 +17,7 @@ h1 {
     font-size: 20px;
 }
 
-h1.entry-title {
+#content .blog-index article h1, #content .blog-index article h1 a  {
     font-size: 16px;
     padding: 2px 2px 2px 8px;
     border-left: 7px solid #999;
@@ -17,7 +25,7 @@ h1.entry-title {
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h3 {
