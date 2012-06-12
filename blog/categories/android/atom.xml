@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | 雲の中が落ち着く]]></title>
   <link href="http://mimu365.github.com/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://mimu365.github.com/"/>
-  <updated>2012-06-06T05:55:33+09:00</updated>
+  <updated>2012-06-12T20:18:48+09:00</updated>
   <id>http://mimu365.github.com/</id>
   <author>
     <name><![CDATA[mimu]]></name>
@@ -14,11 +14,32 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Titanium Studioでtiapp.xmlが開けなくなった]]></title>
+    <link href="http://mimu365.github.com/blog/2012/06/12/titanium-mobile/"/>
+    <updated>2012-06-12T20:09:00+09:00</updated>
+    <id>http://mimu365.github.com/blog/2012/06/12/titanium-mobile</id>
+    <content type="html"><![CDATA[<p>Titanium Studioでアプリを定義するためのファイル「tiapp.xml」が開けなくなったので調べてみると、日本語化していると不具合が起きやすいとのことで、</p>
+
+<pre><code>C:\TitaniumStudio\TitaniumStudio.ini
+</code></pre>
+
+<p>に書き足してあった</p>
+
+<pre><code>-javaagent:plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar
+</code></pre>
+
+<p>を削除してみると、無事ファイルが開けるようになりました。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Titanium Mobileことはじめ]]></title>
     <link href="http://mimu365.github.com/blog/2012/05/03/titanium-mobile/"/>
     <updated>2012-05-03T09:51:00+09:00</updated>
     <id>http://mimu365.github.com/blog/2012/05/03/titanium-mobile</id>
     <content type="html"><![CDATA[<p><em>この記事の方法では、エミュレータが動かなかったり、実機転送ができなかったりがありまして…いろいろ試行錯誤をしたので、近いうちに記事を修正します…</em></p>
+
+<p><del></p>
 
 <h4>Titanium MobileのWindows 7へのインストール</h4>
 
@@ -119,7 +140,8 @@
     status = "JDK version %s detected, but 1.7 is required" % version
 </code></pre>
 
-<p>に変更。</p>
+<p>に変更。
+</del></p>
 ]]></content>
   </entry>
   

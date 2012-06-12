@@ -9,8 +9,8 @@
   <meta name="author" content="mimu">
 
   
-  <meta name="description" content="来たる4月21日（土）、西宮バルの最後を飾る甲子園バルが開催され、街をSNS化するアプリ「コミューン」がお目見えしました。
-69の参加店の場所や営業時間、バルメニューがマップで見られる他、AR（拡張現実）では今いるところからお店がどちらにあるかがわかり、 &hellip;">
+  <meta name="description" content="この記事の方法では、エミュレータが動かなかったり、実機転送ができなかったりがありまして…いろいろ試行錯誤をしたので、近いうちに記事を修正します… Titanium MobileのWindows 7へのインストール 「Titanium」は「タイタニウム」と読むそうな。
+以下、Android &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +77,146 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/05/03/titanium-mobile/">Titanium Mobileことはじめ</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-03T09:51:00+09:00" pubdate data-updated="true">May 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><em>この記事の方法では、エミュレータが動かなかったり、実機転送ができなかったりがありまして…いろいろ試行錯誤をしたので、近いうちに記事を修正します…</em></p>
+
+<p><del></p>
+
+<h4>Titanium MobileのWindows 7へのインストール</h4>
+
+<p>「Titanium」は「タイタニウム」と読むそうな。<br/>
+以下、Android App開発のためのWindows 7へのインストール手順です。（それぞれ、2012/5/3現在のバージョンです。）</p>
+
+<h4>(1) JAVA JDKのインストール</h4>
+
+<p><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">JAVA SE Downloads</a>から、Java SE 7u4のJDKをダウンロード。<br/>
+ダウンロード後、解凍してインストール（Program Files以下でOK）</p>
+
+<h4>(2) Android SDKのインストール</h4>
+
+<p><a href="http://developer.android.com/sdk/index.html">Android SDK</a>から、「installer_r18-windows.exe」をダウンロード。<br/>
+ダウンロード後、指示に従ってインストール。その際、JAVA JDKを</p>
+
+<pre><code>C:\Program Files\Java\jdk1.7.0_04
+</code></pre>
+
+<p>に指定する。インストール先はProgram Files以下でOK。</p>
+
+<p>インストール後、引き続きSDK ManagerとAVD Managerを立ち上げて初期設定を行う。</p>
+
+<ul>
+<li>SDK Managerでは、Tools以下2つとExtra＞Google USB Driverをインストール。時間に余裕があれば、所持している実機に合わせて「Android 2.2」などのDeviceをインストールしておく。（かなり時間がかかる）</li>
+<li>AVD Managerでは、SDKでDeviceをインストールした場合、Virtual Deviceの設定を行う。</li>
+</ul>
+
+
+<p>（これらは後で設定できるので、省略可。）</p>
+
+<h4>(3) Pathの設定</h4>
+
+<p>(1)(2)でインストールしたディレクトリまでのパスを、環境変数に追加</p>
+
+<pre><code>コントロールパネル→システム環境設定→環境変数→Path
+</code></pre>
+
+<p>の末尾に</p>
+
+<pre><code>;C:\Program Files\Android\android-sdk\platform-tools;C:\Program Files\Android\android-sdk\tools;C:\Program Files\Java\jdk1.7.0_04\bin
+</code></pre>
+
+<p>を追加する。</p>
+
+<h4>(4) Titanium Studioのインストール</h4>
+
+<p><a href="http://www.appcelerator.com/platform/titanium-studio">Titanium Studio</a>からダウンロード。（アカウントを作らないとダウンロードできない？）</p>
+
+<p>ダウンロード後、指示に従ってインストール。ディレクトリを</p>
+
+<pre><code>C:\TitaniumStudio
+</code></pre>
+
+<p>に変更してインストール継続。</p>
+
+<h4>(5) Titanium Studioの日本語化</h4>
+
+<p><a href="http://mergedoc.sourceforge.jp/">Pleadesファイルのダウンロード</a>から、本体の安定版をダウンロード。<br/>
+解凍後、FeaturesとPluginsを</p>
+
+<pre><code>C:\TitaniumStudio
+</code></pre>
+
+<p>内の同名のフォルダに上書き。</p>
+
+<pre><code>C:\TitaniumStudio\TitaniumStudio.ini
+</code></pre>
+
+<p>の末尾に</p>
+
+<pre><code>-javaagent:plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar
+</code></pre>
+
+<p>を追記。</p>
+
+<h4>(6) JDKのバージョン</h4>
+
+<p>このままだと、JDKのバージョンの指定が誤っていて、</p>
+
+<pre><code>[ERROR] JDK version 1.7.0 detected, but 1.6 is required
+</code></pre>
+
+<p>というエラーが出てAndroidのエミュレータが起動しないので、</p>
+
+<pre><code>C:\Users\(ユーザー名)\AppData\Roaming\Titanium\mobilesdk\win32\2.0.1.GA2\android\prereq.py
+</code></pre>
+
+<p>の21、22行目</p>
+
+<pre><code>if not version.startswith("1.6"):
+    status = "JDK version %s detected, but 1.6 is required" % version
+</code></pre>
+
+<p>を</p>
+
+<pre><code>if not version.startswith("1.7"):
+    status = "JDK version %s detected, but 1.7 is required" % version
+</code></pre>
+
+<p>に変更。
+</del></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -252,46 +392,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/04/12/photo/">写真貼りつけ</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-04-12T20:42:00+09:00" pubdate data-updated="true">Apr 12<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>サーバにアップロードはできなくても</h4>
-
-<p><a href="http://www.flickr.com/photos/acguyinfo/7055550429/" title="とりあえず公園走り回ってる。出会えたらラッキー。 by nupe = mimu, on Flickr"><img src="http://farm8.staticflickr.com/7044/7055550429_a44f9ee10c.jpg" width="500" height="500" alt="とりあえず公園走り回ってる。出会えたらラッキー。"></a></p>
-
-<p>写真はFlickrのリンクを貼れば良いし、書くだけならこれで十分。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -321,6 +421,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/06/12/titanium-mobile/">Titanium Studioでtiapp.xmlが開けなくなった</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/06/05/test/">思わぬエラー</a>
       </li>
     
@@ -334,10 +438,6 @@
     
       <li class="post">
         <a href="/blog/2012/05/15/spacer-dot-gif-on-github/">GitHubにspacer.gifが！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/05/03/titanium-mobile/">Titanium Mobileことはじめ</a>
       </li>
     
   </ul>
