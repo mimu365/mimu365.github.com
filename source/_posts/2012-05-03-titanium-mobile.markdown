@@ -7,6 +7,7 @@ categories: Android App
 ---
 *この記事の方法では、エミュレータが動かなかったり、実機転送ができなかったりがありまして…いろいろ試行錯誤をしたので、近いうちに記事を修正します…*
 
+<del>
 #### Titanium MobileのWindows 7へのインストール
 「Titanium」は「タイタニウム」と読むそうな。  
 以下、Android App開発のためのWindows 7へのインストール手順です。（それぞれ、2012/5/3現在のバージョンです。）
@@ -92,4 +93,5 @@ categories: Android App
         status = "JDK version %s detected, but 1.7 is required" % version
 
 に変更。
+</del>
 
